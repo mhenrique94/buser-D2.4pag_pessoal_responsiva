@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}    
+    
+    body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #293651;
+    background-color: rgb(245, 245, 245);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container h2 {
+    color: rgb(15, 182, 104);
+    font-weight: 100;
+}
+  
+h3 {
+    font-weight: 150;
+}
+  
+p {
+    font-size: 12pt;
+}
+  
+.container {
+      display: block;
+      background-color: white;
+      /* margin: 0; */
+      width: auto;
+      padding: 0% 30%;
+}
+  
+button {
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(15, 182, 104);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+ 
+#hireme {
+      background-color: white;
+      padding: 0% 30%;
+}
+
+#hireme h2 {
+    color: #293651;
+    font-size: 36px;
+}
+
+progress {
+      accent-color: rgb(15, 182, 104);
+      width: 100%;
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+h2 {
+    color: #293651;
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+
+hr {
+    border: 2px dashed rgb(81, 214, 152);
+    width: 10%;
+}
+.item {
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      font-size: 16px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border-radius: 10px;
+      padding: 20px 10px 10px 20px;
+}
+
+.item h3 {
+    font-weight: bolder;
+}
+.item img {
+    display: block;
+    width: 64px;
+    margin: 10px 10px 20px 10px;
+    background-color: rgb(81, 214, 152);
+    padding: 20px;
+    border-radius: 25px 25px 1px 25px;
+}
+
+#container-contatos {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+#contatos {
+    background-image: linear-gradient(110deg, #216d4d 0%, #52ad80 100%);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 900px;
+    height: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contatos p {
+    margin: 20px auto 0 40px;
+} 
+
+#contatos h3 {
+    margin: 20px 0 0 40px;
+}
+
+#contatos hr {
+    margin: 10px 0 0 40px;
+}
+
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+i {
+    width: 40px;
+    color: #216d4d;
+    margin: 100px 20px 10px 10px
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    main {
+        width: auto;
+        margin: 0;
+
+    }
+
+    .container {
+        display: block;
+        width: 95vw;
+        margin-top: 180px;
+        padding: 0 5% 0 0 ;
+    }
+
+    .container img {
+        width: 50%;
+    }
+
+    h2, h1, h3{
+        margin: 1% 5% 0 5%;
+    }
+    p {
+        margin-left: 5%;
+    }
+
+    .container button {
+        margin-left: 5%;
+    }
+
+    #hireme {
+        width: 95%;
+        padding: 0 5% 0 0;
+        margin: 0;
+    }
+
+    #projetos {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .item {
+        width: 75%;
+        height: 80%;
+        margin: 10%;
+        font-size: 16px;
+        padding: 10px 5px 5px 10px;
+    }
+
+    .item img {
+        width: 32px;
+        margin: 10px 1px 2px 1px;
+    }
+    #container-contatos {
+        height: 200px;
+    }
+
+    #contatos {
+        border-radius: 5px;
+        width: 90%;
+        max-width: 900px;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #footer {
+        margin-top: 0;
+        position: fixed;
+        width: 100%;
+        height: 180px;
+        font-size: 16pt;
+        
+    }
+
+    i {
+        width: 40px;
+        color: #216d4d;
+        margin: 20px 20px 10px 10px
+    }
+
+    #footer h2 {
+        font-size: 16pt;
+    }
+}
