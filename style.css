@@ -33,9 +33,7 @@ p {
   
 .container {
       display: block;
-      background-color: white;
-      /* margin: 0; */
-      width: auto;
+      background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #0fb668);
       padding: 0% 30%;
 }
   
