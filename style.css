@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +35,9 @@ p {
       display: block;
       background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #0fb668);
       padding: 0% 30%;
+      margin: auto;
+      height: 100vh;
+      position: relative;
 }
 
 #container h2 {
@@ -47,9 +54,9 @@ button {
     border-radius: 4px;
 }
 
-img {
-    margin: auto;
-    display: block;
+#container img {
+    position: absolute;
+    bottom: 0;
 }
  
 #hireme {
@@ -66,10 +73,15 @@ progress {
       width: 100%;
 }
 
+#projetos h2 {
+    padding: 0% 10%;
+}
+
 .prj-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 0% 10%;
 }
 
 h2 {
@@ -79,13 +91,14 @@ h2 {
     margin-top: 3%;
 }
 
-hr {
+#projetos hr {
     border: 2px dashed rgb(81, 214, 152);
-    width: 10%;
+    width: 200px;
+    margin: 0% 10%;
 }
 .item {
-      width: 300px;
-      height: 300px;
+      max-width: 400px;
+      max-height: 300px;
       margin: 20px;
       font-size: 16px;
       background-color: rgb(255, 255, 255);
@@ -177,9 +190,9 @@ li {
 
     #container {
         display: block;
-        width: 95vw;
         margin-top: 140px;
         padding: 0 5% 0 0 ;
+        /* height: 100vh; */
     }
 
     #container img {
@@ -213,6 +226,10 @@ li {
         padding: 5px;
     }
 
+    .prj-container {
+        padding: 10px;
+    }
+
     #hireme {
         width: 95%;
         padding: 0 5% 0 0;
@@ -225,11 +242,8 @@ li {
         margin-bottom: 20px;
     }
 
-    .prj-container{
-        width: auto;
-        margin: 0;
-        padding: 0;
-        margin: 0;
+    #projetos {
+        padding: 1%;
         
     }
 
@@ -243,9 +257,9 @@ li {
 
 
     .item {
-        width: 75%;
-        height: 80%;
-        margin: 10%;
+        /* width: 75%;
+        height: 80%; */
+        margin: 2%;
         font-size: 14px;
         padding: 10px 5px 5px 10px;
     }
