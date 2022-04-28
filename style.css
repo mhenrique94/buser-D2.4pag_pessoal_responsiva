@@ -18,11 +18,7 @@ main {
     align-items: center;
 
 }
-#container h2 {
-    color: rgb(15, 182, 104);
-    font-weight: 100;
-}
-  
+
 h3 {
     font-weight: 150;
 }
@@ -36,6 +32,12 @@ p {
       background-image: linear-gradient(to right bottom, #ffffff, #ffffff, #0fb668);
       padding: 0% 30%;
 }
+
+#container h2 {
+    color: rgb(15, 182, 104);
+    font-weight: 100;
+}
+  
   
 button {
     padding: 10px 25px 10px 25px;
@@ -57,9 +59,6 @@ img {
 
 #hireme h2 {
     color: #293651;
-    font-size: 20px;
-    margin-left: 5%;
-    margin-bottom: 20px;
 }
 
 progress {
@@ -97,6 +96,7 @@ hr {
 
 .item h3 {
     font-weight: bolder;
+    margin: 6px 2px;
 }
 .item img {
     display: block;
@@ -167,7 +167,7 @@ li {
     margin: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 
     main {
         width: auto;
@@ -219,6 +219,12 @@ li {
         margin: 0;
     }
 
+    #hireme h2 {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
     .prj-container{
         width: auto;
         margin: 0;
@@ -232,6 +238,7 @@ li {
     }
     #projetos h2 {
         margin-left: 5%;
+        font-size: 20px;
     }
 
 
@@ -239,7 +246,7 @@ li {
         width: 75%;
         height: 80%;
         margin: 10%;
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 5px 5px 10px;
     }
 
